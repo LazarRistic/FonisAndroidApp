@@ -4,5 +4,21 @@
     <string name="app_name">Fonis</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string-array name ="titles" >  
+     <item > Ime Prezime</item>
+     <item > Ime Prezime</item>
+     <item > Ime Prezime</item>
+     <item > Ime Prezime</item>
+     <item > Ime Prezime</item>
+     <item > Ime Prezime</item>
+     </string-array>
+      <string-array name ="descriptions" >  
+     <item > FONIS UO1</item>
+     <item > FONIS UO2</item>
+     <item >FONIS UO3 </item>
+     <item >FONIS UO4</item>
+     <item > FONIS UO5</item>
+     <item > FONIS UO6</item>
+     </string-array>
 
 </resources>
