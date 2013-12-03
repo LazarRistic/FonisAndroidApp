@@ -19,6 +19,8 @@ import org.json.JSONObject;
 import domen.Vesti;
 
 import alati.ListActivityVesti;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.net.Uri;
@@ -48,7 +50,15 @@ public class VestiActivity extends ListActivity{
         
 
     	new AsyncTask<URL, Void, ArrayList<Vesti>>() {
-    		protected ArrayList<Vesti> doInBackground(URL... urls) {
+    		
+    		
+    		
+    		@Override
+			protected void onPreExecute() {
+				// TODO Auto-generated method stub
+			//	AlertDialog alert = new Progre
+			}
+			protected ArrayList<Vesti> doInBackground(URL... urls) {
     		// TODO Auto-generated method stub
     		try{
     		URL url = new URL("http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=100&q=http://feeds.feedburner.com/fonis");

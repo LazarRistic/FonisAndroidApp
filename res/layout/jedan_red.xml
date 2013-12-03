@@ -9,10 +9,10 @@
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/zorana" 
-        android:layout_margin="10dp"/>
-
+        android:layout_height="wrap_content" 
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_launcher" />
+    
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -20,14 +20,23 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="Large Text"
+        android:layout_toRightOf="@+id/imageView1"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView 
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_below="@+id/textView2"
+        android:text="email" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/imageView1"
+        android:layout_below="@+id/textView1"
+        android:layout_toRightOf="@+id/imageView1"
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall" />
     

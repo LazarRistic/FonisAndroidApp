@@ -2,40 +2,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-
-    <TextView 
-        android:id="@+id/twNaslov"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:text="Studentski servisi \n" 
-    />
-    <TextView 
-        android:id="@+id/twSadrzaj"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/twNaslov"
-        android:text="Termini otvaranja naloga za studentske servise \n
-		Sreda, 14:00 - 16:00, kancelarija FONIS-a \n" 
-	/>
-	<TextView 
-        android:id="@+id/twNaslov1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_below="@+id/twSadrzaj"
-        android:text="Izdavanje softvera \n" 
-	/>
-	<TextView 
-        android:id="@+id/twSadrzaj1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/twNaslov1"
-        android:text="Da biste dobili mogućnost korišćenja besplatnog Microsoft softvera,
-potrebno je da otvorite nalog na MSDNAA portalu. 
-Za otvaranje naloga potrebno je da se lično pojavite i da donesete 
-indeks i ličnu kartu. Kada vam se otvori nalog, možete od kuće da download-ujete softver. \n
-Sva pitanja u vezi softvera i problema sa pristupom portalu možete slati na softver@fonis.rs
- 		\n" 
- 	/>
+	<ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            
+	    <LinearLayout android:id="@+id/llServisi"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    <TextView 
+	        android:id="@+id/twNaslov"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="25sp"
+	        android:text="Studentski servisi \n" 
+	    />
+	    <TextView 
+	        android:id="@+id/twSadrzaj"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/twNaslov"
+	        android:text="Termini otvaranja naloga za studentske servise \n
+			Sreda, 14:00 - 16:00, kancelarija FONIS-a \n" 
+		/>
+		<TextView 
+	        android:id="@+id/twNaslov1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_below="@+id/twSadrzaj"
+	        android:text="Izdavanje softvera \n" 
+		/>
+		<TextView 
+	        android:id="@+id/twSadrzaj1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/twNaslov1"
+	        android:text="Da biste dobili mogućnost korišćenja besplatnog Microsoft softvera,
+	potrebno je da otvorite nalog na MSDNAA portalu. 
+	Za otvaranje naloga potrebno je da se lično pojavite i da donesete 
+	indeks i ličnu kartu. Kada vam se otvori nalog, možete od kuće da download-ujete softver.\nSva pitanja u vezi softvera i problema sa pristupom portalu možete slati na softver@fonis.rs
+	 		\n" 
+	 	/>
+	</LinearLayout>
+</ScrollView>
 </RelativeLayout>

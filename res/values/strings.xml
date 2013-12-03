@@ -4,21 +4,30 @@
     <string name="app_name">Fonis</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="no_connection">No connections</string>
     <string-array name ="titles" >  
-     <item > Ime Prezime</item>
-     <item > Ime Prezime</item>
-     <item > Ime Prezime</item>
-     <item > Ime Prezime</item>
-     <item > Ime Prezime</item>
-     <item > Ime Prezime</item>
+     <item > Zorana Krstić</item>
+     <item > Misa Lazović</item>
+     <item > Djordje Petrović</item>
+     <item > Goran Militarov</item>
+     <item > Marija Marković</item>
+     <item > Vladimir Stoiljković</item>
      </string-array>
       <string-array name ="descriptions" >  
-     <item > FONIS UO1</item>
-     <item > FONIS UO2</item>
-     <item >FONIS UO3 </item>
-     <item >FONIS UO4</item>
-     <item > FONIS UO5</item>
-     <item > FONIS UO6</item>
+     <item > Predsednik</item>
+     <item > Kordinator za znanje članova</item>
+     <item > Kordinator za ljudske resurse </item>
+     <item > Kordinator za projekte</item>
+     <item > Kordinator za odnose sa kompanijama i fakultetom</item>
+     <item > Podpredsednik i kordinator za odnose sa javnošću</item>
      </string-array>
 
+      <string-array name ="email" >  
+     <item > zorana.krstic@fonis.rs</item>
+     <item > misa.lazovic@fonis.rs</item>
+     <item > djordje.petrovic@fonis.rs</item>
+     <item > goran.militarov@fonis.rs</item>
+     <item > marija.markovic@fonis.rs</item>
+     <item > vladimir.stoiljkovic@fonis.rs</item>
+     </string-array>
 </resources>
